@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this formalization, please cite this repository."
+title: "RHShortIntervals: psi(x) = x + O(x^(1/2+delta)) and primes in short intervals from the Riemann Hypothesis, in Lean 4"
+abstract: >-
+  A Lean 4 / Mathlib proof that Mathlib's RiemannHypothesis implies
+  psi(x) = x + O(x^(1/2+delta)) and a prime in (x, x + x^(1/2+epsilon)] for all large x
+  (von Koch 1901), by a contour shift of the smoothed Chebyshev function of
+  PrimeNumberTheoremAnd to the line Re s = 1/2 + delta.
+type: software
+authors:
+  - family-names: Flamandzki
+    given-names: Artur
+    email: flamandzki.artur@gmail.com
+version: 0.1.0
+license: Apache-2.0
+repository-code: "https://github.com/Flaman55/RHShortIntervals"
+keywords:
+  - Lean 4
+  - Mathlib
+  - Riemann Hypothesis
+  - primes in short intervals
+  - formal verification
+references:
+  - type: software
+    title: "PrimeNumberTheoremAnd"
+    authors:
+      - family-names: Kontorovich
+        given-names: Alex
+      - family-names: Tao
+        given-names: Terence
+    repository-code: "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd"
+    commit: "e9906138410f8f76ca66b9bc252d0993f3ee348c"
+    license: Apache-2.0
+  - type: software
+    title: "RHStructure"
+    authors:
+      - family-names: Flamandzki
+        given-names: Artur
+    repository-code: "https://github.com/Flaman55/RHStructure"

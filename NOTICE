@@ -1,0 +1,6 @@
+RHShortIntervals
+Copyright 2026 Artur Flamandzki
+
+This repository contains files of PrimeNumberTheoremAnd
+(https://github.com/AlexKontorovich/PrimeNumberTheoremAnd, commit e9906138410f, Apache-2.0),
+under PNTPort/, changed as described in PORTING.md; their original copyright headers are kept.
